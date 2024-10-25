@@ -1,0 +1,84 @@
+/* Variables CSS */
+:root {
+    --primary-color: #1a1a1a; /* Color principal (fondo) */
+    --secondary-color: #ffffff; /* Color secundario (texto) */
+    --highlight-color: #ffcc00; /* Color para resaltar (hover) */
+}
+
+/* Estilos generales */
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #ff9900;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--highlight-color);
+}
+
+/* Imágenes y videos responsivos */
+img, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+}
+
+/* Clases utilitarias */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.padding-bottom {
+    padding-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
